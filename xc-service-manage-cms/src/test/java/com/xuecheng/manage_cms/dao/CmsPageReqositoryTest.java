@@ -57,6 +57,7 @@ public class CmsPageReqositoryTest {
         cmsPage.setPageParams(cmsPageParams);
         cmsPageRepository.save(cmsPage);
         System.out.println(cmsPage);
+        System.out.println(cmsPage);
     }
     //测试根据id删除信息
     @Test
